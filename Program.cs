@@ -10,11 +10,13 @@ namespace ResponsiPemrograman2666
             Karyawan karyawan2 = new Karyawan("Jati", "19112667", 1000000);
 
             Console.WriteLine("NIK/Nama\t\tGajiBulanan");
+            Console.WriteLine("--------------------------------------");
             karyawan1.TampilGaji();
             karyawan2.TampilGaji();
 
             Console.WriteLine("\nYeay Tambahan Gaji 10%!!\n");
             Console.WriteLine("NIK/Nama\t\tGajiBulanan");
+            Console.WriteLine("--------------------------------------");
             karyawan1.TampilTambahanGaji();
             karyawan2.TampilTambahanGaji();
         }
